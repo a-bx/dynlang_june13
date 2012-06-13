@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A29DE8D1588EBF2005071B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A29DE8C1588EBF2005071B2 /* UIKit.framework */; };
+		6A29DE8F1588EBF2005071B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A29DE8E1588EBF2005071B2 /* Foundation.framework */; };
+		6A29DE911588EBF2005071B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A29DE901588EBF2005071B2 /* CoreGraphics.framework */; };
+		6A29DE971588EBF2005071B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A29DE951588EBF2005071B2 /* InfoPlist.strings */; };
+		6A29DE991588EBF2005071B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A29DE981588EBF2005071B2 /* main.m */; };
+		6A29DE9D1588EBF2005071B2 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A29DE9C1588EBF2005071B2 /* RHAppDelegate.m */; };
+		6A29DEA01588EBF2005071B2 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A29DE9F1588EBF2005071B2 /* RHViewController.m */; };
+		6A29DEA31588EBF2005071B2 /* RHViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A29DEA11588EBF2005071B2 /* RHViewController_iPhone.xib */; };
+		6A29DEA61588EBF2005071B2 /* RHViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A29DEA41588EBF2005071B2 /* RHViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A29DE881588EBF2005071B2 /* ExcessOfNativeControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcessOfNativeControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A29DE8C1588EBF2005071B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A29DE8E1588EBF2005071B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A29DE901588EBF2005071B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A29DE941588EBF2005071B2 /* ExcessOfNativeControls-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExcessOfNativeControls-Info.plist"; sourceTree = "<group>"; };
+		6A29DE961588EBF2005071B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A29DE981588EBF2005071B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A29DE9A1588EBF2005071B2 /* ExcessOfNativeControls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExcessOfNativeControls-Prefix.pch"; sourceTree = "<group>"; };
+		6A29DE9B1588EBF2005071B2 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		6A29DE9C1588EBF2005071B2 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		6A29DE9E1588EBF2005071B2 /* RHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
+		6A29DE9F1588EBF2005071B2 /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
+		6A29DEA21588EBF2005071B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHViewController_iPhone.xib; sourceTree = "<group>"; };
+		6A29DEA51588EBF2005071B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A29DE851588EBF2005071B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A29DE8D1588EBF2005071B2 /* UIKit.framework in Frameworks */,
+				6A29DE8F1588EBF2005071B2 /* Foundation.framework in Frameworks */,
+				6A29DE911588EBF2005071B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A29DE7D1588EBF1005071B2 = {
+			isa = PBXGroup;
+			children = (
+				6A29DE921588EBF2005071B2 /* ExcessOfNativeControls */,
+				6A29DE8B1588EBF2005071B2 /* Frameworks */,
+				6A29DE891588EBF2005071B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A29DE891588EBF2005071B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A29DE881588EBF2005071B2 /* ExcessOfNativeControls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A29DE8B1588EBF2005071B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A29DE8C1588EBF2005071B2 /* UIKit.framework */,
+				6A29DE8E1588EBF2005071B2 /* Foundation.framework */,
+				6A29DE901588EBF2005071B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A29DE921588EBF2005071B2 /* ExcessOfNativeControls */ = {
+			isa = PBXGroup;
+			children = (
+				6A29DE9B1588EBF2005071B2 /* RHAppDelegate.h */,
+				6A29DE9C1588EBF2005071B2 /* RHAppDelegate.m */,
+				6A29DE9E1588EBF2005071B2 /* RHViewController.h */,
+				6A29DE9F1588EBF2005071B2 /* RHViewController.m */,
+				6A29DEA11588EBF2005071B2 /* RHViewController_iPhone.xib */,
+				6A29DEA41588EBF2005071B2 /* RHViewController_iPad.xib */,
+				6A29DE931588EBF2005071B2 /* Supporting Files */,
+			);
+			path = ExcessOfNativeControls;
+			sourceTree = "<group>";
+		};
+		6A29DE931588EBF2005071B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A29DE941588EBF2005071B2 /* ExcessOfNativeControls-Info.plist */,
+				6A29DE951588EBF2005071B2 /* InfoPlist.strings */,
+				6A29DE981588EBF2005071B2 /* main.m */,
+				6A29DE9A1588EBF2005071B2 /* ExcessOfNativeControls-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A29DE871588EBF2005071B2 /* ExcessOfNativeControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A29DEA91588EBF2005071B2 /* Build configuration list for PBXNativeTarget "ExcessOfNativeControls" */;
+			buildPhases = (
+				6A29DE841588EBF2005071B2 /* Sources */,
+				6A29DE851588EBF2005071B2 /* Frameworks */,
+				6A29DE861588EBF2005071B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcessOfNativeControls;
+			productName = ExcessOfNativeControls;
+			productReference = 6A29DE881588EBF2005071B2 /* ExcessOfNativeControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A29DE7F1588EBF1005071B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RH;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6A29DE821588EBF1005071B2 /* Build configuration list for PBXProject "ExcessOfNativeControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A29DE7D1588EBF1005071B2;
+			productRefGroup = 6A29DE891588EBF2005071B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A29DE871588EBF2005071B2 /* ExcessOfNativeControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A29DE861588EBF2005071B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A29DE971588EBF2005071B2 /* InfoPlist.strings in Resources */,
+				6A29DEA31588EBF2005071B2 /* RHViewController_iPhone.xib in Resources */,
+				6A29DEA61588EBF2005071B2 /* RHViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A29DE841588EBF2005071B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A29DE991588EBF2005071B2 /* main.m in Sources */,
+				6A29DE9D1588EBF2005071B2 /* RHAppDelegate.m in Sources */,
+				6A29DEA01588EBF2005071B2 /* RHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A29DE951588EBF2005071B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A29DE961588EBF2005071B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A29DEA11588EBF2005071B2 /* RHViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A29DEA21588EBF2005071B2 /* en */,
+			);
+			name = RHViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6A29DEA41588EBF2005071B2 /* RHViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A29DEA51588EBF2005071B2 /* en */,
+			);
+			name = RHViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A29DEA71588EBF2005071B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A29DEA81588EBF2005071B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A29DEAA1588EBF2005071B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExcessOfNativeControls/ExcessOfNativeControls-Prefix.pch";
+				INFOPLIST_FILE = "ExcessOfNativeControls/ExcessOfNativeControls-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A29DEAB1588EBF2005071B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExcessOfNativeControls/ExcessOfNativeControls-Prefix.pch";
+				INFOPLIST_FILE = "ExcessOfNativeControls/ExcessOfNativeControls-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A29DE821588EBF1005071B2 /* Build configuration list for PBXProject "ExcessOfNativeControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A29DEA71588EBF2005071B2 /* Debug */,
+				6A29DEA81588EBF2005071B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A29DEA91588EBF2005071B2 /* Build configuration list for PBXNativeTarget "ExcessOfNativeControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A29DEAA1588EBF2005071B2 /* Debug */,
+				6A29DEAB1588EBF2005071B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A29DE7F1588EBF1005071B2 /* Project object */;
+}
